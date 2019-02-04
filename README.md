@@ -30,7 +30,7 @@ Demos
 
 Integrations
 ------------
-Here is list of most common uses cases of the WProofreader integration in your web app:
+Here is a list of most common uses cases of the WProofreader integration in your web app:
 
 * HTML editable controls such as ```<input>``` or ```<textarea>``` and elements with contenteditable attribute set to ‘true’ e.g. ```<div>```, ```<iframe>```;
 * Modern WYSIWYG editors such as [CKEditor 4](https://ckeditor.com/ckeditor-4/), [CKEditor 5](https://ckeditor.com/ckeditor-5/), [TinyMCE](https://www.tiny.cloud/), [Froala Editor](https://www.froala.com/wysiwyg-editor), [Kendo UI](https://www.telerik.com/kendo-ui), [Quill](https://quilljs.com/), [Redactor](https://imperavi.com/redactor/), [Summernote](https://summernote.org/), [RadEditor - Telerik ASP.NET Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx), [ProseMirror](https://prosemirror.net/), [Scribe](https://github.com/guardian/scribe), [Trix](https://trix-editor.org/), etc.
