@@ -107,7 +107,7 @@ This is the list of officially supported browsers. WProofreader may also work in
 * Mobile Chrome (the latest)
 * Mobile Safari (the latest)
 
-Note: All browsers are to be supported for web pages that work in Standards Mode.
+Note: All browsers are to be supported for web pages that work in Standard Mode.
 
 Resources
 ------------
