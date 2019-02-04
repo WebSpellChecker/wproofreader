@@ -37,7 +37,7 @@ Here is list of most common uses cases of the WProofreader integration in your w
 
 Supported Languages
 ------------
-By default WProofreader supports 16 languages: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, English, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish.
+By default WProofreader supports 16 languages: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish.
 
 There are also over 150 additional languages and specialized dictionaries such as Medical and Legal available, you can check the full list [here](https://webspellchecker.com/additional-dictionaries/). 
 
