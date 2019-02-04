@@ -65,7 +65,7 @@ Get Started
 </script>
 ```
 
-You can adjust the default settings with the extra API options.
+> Note: You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
 
 Check the full version of [Get Started with Cloud WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=442663877) guide for more details.
 
@@ -91,6 +91,7 @@ Check the full version of [Get Started with Cloud WProofreader (autoSearch)](htt
    };
 </script>
 ```
+> Note: You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
 
 Check the full version of [Get Started with Server WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=449970306) guide for more details.
 
@@ -107,7 +108,7 @@ This is the list of officially supported browsers. WProofreader may also work in
 * Mobile Chrome (the latest)
 * Mobile Safari (the latest)
 
-Note: All browsers are to be supported for web pages that work in Standard Mode.
+> Note: All browsers are to be supported for web pages that work in Standard Mode.
 
 Resources
 ------------
