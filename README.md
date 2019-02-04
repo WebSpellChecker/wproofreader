@@ -12,7 +12,7 @@ Here’s why to choose WProofreader for your web app:
 * Personal user dictionaries. Some rare or field-specific words may be not recognized by our proofreading engine and reported as a mistake. If the word is spelled correctly a user can add it to his or her own dictionary, to prevent it from being reported in the future.
 * Global custom dictionaries are company-wide vocabularies, which are created and set at an admin level on top of the base languages. 
 
-Demo
+Demos
 ------------
 * [WProofreader Demos](https://webspellchecker.com/wsc-proofreader/#demos)
 * [WProofreader for HTML Editable Controls (Textarea)](https://webspellchecker.com/wsc-proofreader/#proofreader-textarea)
@@ -44,7 +44,7 @@ There are also over 150 additional languages and specialized dictionaries such a
 Get Started
 ------------
 
-WProofreader Cloud
+#### WProofreader Cloud
 
 1. Sign up for the [trial](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-trial) or [paid](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-paid) version here to get started with WProofreader Cloud. On the subscription, you will receive an email with your service ID, an activation key, that is required for the WProofreader service activation. 
 
@@ -67,9 +67,9 @@ WProofreader Cloud
 
 You can adjust the default settings with the extra API options.
 
-Check the full version of Get Started with Cloud WProofreader (autoSearch) guide for more details.
+Check the full version of [Get Started with Cloud WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=442663877) guide for more details.
 
-WProofreader Server
+#### WProofreader Server
 
 1. [Request a 30-day trial version of WebSpellChecker Server](https://webspellchecker.com/free-trial/).
 2. [Setup a WebSpellChecker Server package on your server](https://docs.webspellchecker.net/display/WebSpellCheckerServer53x).
@@ -114,7 +114,7 @@ Resources
 
 * [WProofreader Official Page](https://webspellchecker.com/wsc-proofreader/)
 * [Documentation](https://docs.webspellchecker.net/)
-* [Term of Service](https://webspellchecker.com/terms-of-service/)
+* [Terms of Service](https://webspellchecker.com/terms-of-service/)
 
 Reporting Issues
 ------------
