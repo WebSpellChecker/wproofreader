@@ -14,19 +14,19 @@ Here’s why to choose WProofreader for your web app:
 
 Demo
 ------------
-* WProofreader Demos: https://webspellchecker.com/wsc-proofreader/#demos
-* WProofreader for HTML Editable Controls (Textarea): https://webspellchecker.com/wsc-proofreader/#proofreader-textarea
-* WProofreader for HTML Editable Controls (Div): https://webspellchecker.com/wsc-proofreader/#proofreader-div
-* WProofreader for CKEditor 4 Demo: https://webspellchecker.com/wsc-proofreader/#proofreader-ckeditor4
-* WProofreader for CKEditor 5 Demo: https://webspellchecker.com/wsc-proofreader/#proofreader-ckeditor5
-* WProofreader for TinyMCE Demo: https://webspellchecker.com/wsc-proofreader/#proofreader-tinymce4
-* WProofreader for Froala Editor Demo: https://webspellchecker.com/wsc-proofreader/#proofreader-froala-editor
-* WProofreader for Kendo UI Demo: https://webspellchecker.com/wsc-proofreader/#proofreader-kendo-ui
-* WProofreader for Textbox.io: https://webspellchecker.com/wsc-proofreader/#proofreader-textbox-io
-* WProofreader for Redactor: https://webspellchecker.com/wsc-proofreader/#proofreader-redactor
-* WProofreader for Quill: https://webspellchecker.com/wsc-proofreader/#proofreader-quill
-* WProofreader for ProseMirror: https://webspellchecker.com/wsc-proofreader/#proofreader-prosemirror
-* WProofreader for Trix: https://webspellchecker.com/wsc-proofreader/#proofreader-trix
+* [WProofreader Demos](https://webspellchecker.com/wsc-proofreader/#demos)
+* [WProofreader for HTML Editable Controls (Textarea)](https://webspellchecker.com/wsc-proofreader/#proofreader-textarea)
+* [WProofreader for HTML Editable Controls (Div)](https://webspellchecker.com/wsc-proofreader/#proofreader-div)
+* [WProofreader for CKEditor 4 Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-ckeditor4)
+* [WProofreader for CKEditor 5 Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-ckeditor5)
+* [WProofreader for TinyMCE Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-tinymce4)
+* [WProofreader for Froala Editor Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-froala-editor)
+* [WProofreader for Kendo UI Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-kendo-ui)
+* [WProofreader for Textbox.io](https://webspellchecker.com/wsc-proofreader/#proofreader-textbox-io)
+* [WProofreader for Redactor](https://webspellchecker.com/wsc-proofreader/#proofreader-redactor)
+* [WProofreader for Quill](https://webspellchecker.com/wsc-proofreader/#proofreader-quill)
+* [WProofreader for ProseMirror](https://webspellchecker.com/wsc-proofreader/#proofreader-prosemirror)
+* [WProofreader for Trix](https://webspellchecker.com/wsc-proofreader/#proofreader-trix)
 
 Integrations
 ------------
@@ -39,21 +39,21 @@ Supported Languages
 ------------
 By default WProofreader supports 16 languages: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, English, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish.
 
-There are also over 150 additional languages and specialized dictionaries such as Medical and Legal available, you can check the full list here. 
+There are also over 150 additional languages and specialized dictionaries such as Medical and Legal available, you can check the full list [here](https://webspellchecker.com/additional-dictionaries/). 
 
 Get Started
 ------------
 
 WProofreader Cloud
 
-Step 1. Sign up for the trial or paid version here to get started with WProofreader Cloud. On the subscription, you will receive an email with your service ID, an activation key, that is required for the WProofreader service activation. 
+1. Sign up for the [trial](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-trial) or [paid](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-paid) version here to get started with WProofreader Cloud. On the subscription, you will receive an email with your service ID, an activation key, that is required for the WProofreader service activation. 
 
-Step 2. Specify the path to the service.
+2. Specify the path to the service.
 
 ```
 <script type="text/javascript" src="https://svc.webspellchecker.net/spellcheck31/wscbundle/wscbundle.js"></script>
 ```
-Step 3. Add a configuration script with the default WProofreader options.
+3. Add a configuration script with the default WProofreader options.
 
 ```
 <script>
@@ -71,16 +71,15 @@ Check the full version of Get Started with Cloud WProofreader (autoSearch) guide
 
 WProofreader Server
 
-Step 1. Request a 30-day trial version of WebSpellChecker Server.
-Step 2. Setup a WebSpellChecker Server package on your server.
-
-Step 3. Specify the path to the service.
+1. [Request a 30-day trial version of WebSpellChecker Server](https://webspellchecker.com/free-trial/).
+2. [Setup a WebSpellChecker Server package on your server](https://docs.webspellchecker.net/display/WebSpellCheckerServer53x).
+3. Specify the path to the service.
 
 ```
 <script type="text/javascript" src="http(s)://your_host_name/spellcheck/wscbundle/wscbundle.js"></script>
 ```
 
-Step 4. Add a configuration script with the default WProofreader options.
+4. Add a configuration script with the default WProofreader options.
 
 ```
 <script>
@@ -93,7 +92,7 @@ Step 4. Add a configuration script with the default WProofreader options.
 </script>
 ```
 
-Check the full version of Get Started with Server WProofreader (autoSearch) guide for more details.
+Check the full version of [Get Started with Server WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=449970306) guide for more details.
 
 Browser Support
 ------------
@@ -113,9 +112,9 @@ Note: All browsers are to be supported for web pages that work in Standards Mode
 Resources
 ------------
 
-* WProofreader Official Page: https://webspellchecker.com/wsc-proofreader/
-* Documentation: https://docs.webspellchecker.net/
-* Term of Service: https://webspellchecker.com/terms-of-service/
+* [WProofreader Official Page](https://webspellchecker.com/wsc-proofreader/)
+* [Documentation](https://docs.webspellchecker.net/)
+* [Term of Service](https://webspellchecker.com/terms-of-service/)
 
 Reporting Issues
 ------------
@@ -128,9 +127,9 @@ We use GitHub Issues as the official public bug tracker for WProofreader. Here a
 Technical Support or Questions
 ------------
 
-Holders of an active subscription to the services or a commercial license have access to professional technical assistance directly from the WebSpellChecker team. Contact us here.
+Holders of an active subscription to the services or a commercial license have access to professional technical assistance directly from the WebSpellChecker team. [Contact us here](https://webspellchecker.com/contact-us/).
 
 License
 ------------
 
-In order to use WProofreader you have to purchase one of the following licenses according to your needs. You can find more about that on our website on the pricing plan page.
+In order to use WProofreader you have to purchase one of the following licenses according to your needs. You can find more about that on our website on the [pricing plan page](https://webspellchecker.com/pricing/).
