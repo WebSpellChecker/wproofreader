@@ -3,7 +3,7 @@ WProofreader
 
 ![WProofreader UI](https://webspellchecker.com/app/images/wproofreader.png)
 
-WebSpellChecker Proofreader (WProofreader) is a new ultimate multi-language proofreading tool. It provides both instant and on-click proofreading modes in a new convenient UI. End users just need to hover on the marked words for instant correction suggestions or click the dialog icon in the bottom right corner to have the whole text proofread at once.
+**WebSpellChecker Proofreader (WProofreader)** is a new ultimate multi-language proofreading tool. It provides both instant and on-click proofreading modes in a new convenient UI. End users just need to hover on the marked words for instant correction suggestions or click the dialog icon in the bottom right corner to have the whole text proofread at once.
 
 Here’s why to choose WProofreader for your web app:
 * Both instant spelling and grammar checking, and proofreading in a dialog are now available simultaneously.
