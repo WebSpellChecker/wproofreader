@@ -1,5 +1,7 @@
 **WProofreader** is a commercial product developed and owned by WebSpellChecker LLC.
 
+Copyright (c) 2019, WebSpellChecker LLC. All rights reserved.
+
 In order to use WProofreader you have to purchase one of the following licenses according to your needs. You can find more about that on our website on the [pricing plan page](https://webspellchecker.com/pricing/).
 
 Terms of Service
