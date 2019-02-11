@@ -1,5 +1,21 @@
 # WProofreader Changelog
 
+## 1.5 – 2019-02-11
+
+* Change wavy red and green lines that underlines spelling and grammar errors accordingly to straight ones.
+* German language dictionary has been extended with over 600K new words.
+* Grammar support is added for Australian and New Zealand English, Polish, Slovak, Slovenian, Austrian languages.
+
+### Bug Fixes
+
+* [WP-2405] WProofreader: The suggestion box has wrong position in ```<iframe>``` on touch devices with zoom
+* [WP-2423] WProofreader: Elements are incorrectly positioned if one from the parents of main container is scrollable
+* [WP-2424] WProofreader: Empty space is underlined before a word with ```<a>``` link
+* [WP-2440] WProofreader: Grammar problems separated by a new line are processed incorrectly in ```<textarea>``` elements
+* [WP-2528] WProofreader: WordPress styles is broken when editing media
+* [WP-2441] wscbundle.js: Quotes with code #8217 shouldn't be considered as separators & [WP-2541] SCAYT doesn't ignore 'Right single quotation mark U+2019'.
+* [WP-2571] WProofreader: Incorrect position of badge button if the body has relative position and padding
+
 ## 1.4 – 2018-12-28
 
 * Support of as you type mode for editors based on a custom data model.WProofreader fully supports ‘as you type’ mode in a wide range of WYSIWYG editors with a custom data model and virtual DOM such as CKEditor5, Quill, Trix, ProseMirror, Scribe.
