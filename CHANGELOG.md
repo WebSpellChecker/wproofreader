@@ -1,5 +1,50 @@
 # WProofreader Changelog
 
+## 1.6 – 2019-04-02
+
+* Title of the dialog "WebSpellChecker Proofreader" is renamed to "WProofreader".
+* New API method ```instance.openDialog()``` is added for opening 'dialog mode' of WProofreader on action. This method will come in handy if you prefer to use only proofread in a dialog mode and call WProofreader on a custom action.
+* New API options are added:
+
+    * ```disableDictionariesPreferences``` – If true, this parameter hides certain features of the personal user dictionaries for end users. End users won’t be able to create, rename, remove or disconnect a dictionary.
+
+    ```disableDictionariesPreferences: true,```
+
+    * ```proofreadAsYouType``` – If false, this parameter disables the proofread as you type mode of WProofreader. Only proofread in a dialog mode will be available.
+
+    ```proofreadAsYouType: false,```
+
+    * ```removeBranding``` – If true, this parameter removes branding of WProofreader. The branding includes: title of the product, about tab with the logo and copyrights. This option is available only in Cloud Custom and Server plans.
+
+    ```removeBranding: true,```
+
+    * ```disableBadgePulsing``` – If true, this parameter disables pulsing effect of the orange badge button of WProofreader.
+
+    ```disableBadgePulsing: true,```
+
+* Added access to a WProofreader instance. Now you can get access to an instance of WProofreader.
+
+```
+<script>
+window.WEBSPELLCHECKER_CONFIG = {
+	autoSearch: true,
+	enableGrammar: true,
+	...
+	onLoad: function(instance) {
+		var element = instance.getContainerNode();
+		element.instance = instance;
+	    }
+    };
+</script>
+```
+### Bug Fixes
+
+* [WP-2513] WProofreader for Froala Editor: Image caption is broken after Paste action with misspelled text
+* [WP-2674] WProofreader: Issue with CSS styles inside of all.css for the pulse effect. CSS styles of pulse effect is not protected.
+* [WP-2675] WProofreader: ```enableBadgeButton``` doesn't work with the autoSearch mode
+* [WP-2706] WProofreader: Shifted markup in ```<textarea>``` element in any browser on Windows-OS
+
+
 ## 1.5 – 2019-02-11
 
 * Change wavy red and green lines that underlines spelling and grammar errors accordingly to straight ones.
