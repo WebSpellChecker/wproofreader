@@ -1,5 +1,18 @@
 # WProofreader Changelog
 
+## 1.8 – 2019-05-16
+
+* The new blocked-based mechanism of processing and underlining spelling and grammar problems is introduced for editors that are based on a custom model such as CKEditor 5, Quill, ProseMirror, etc.
+
+### Bug Fixes
+
+* [WP-2796]: WProofreader: The replaced word changes formatting if other formatted word is currently focused.
+* [WP-2802]: WProofreader: Underline is not removed for a spelling/grammar problem before a separator symbol.
+
+## 1.7 – 2019-05-07
+
+* The core and architecture of WProofreader is improved.
+
 ## 1.6 – 2019-04-02
 
 * Title of the dialog "WebSpellChecker Proofreader" is renamed to "WProofreader".
