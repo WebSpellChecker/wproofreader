@@ -1,5 +1,11 @@
 # WProofreader Changelog
 
+## 1.9.3626 – 2019-06-05
+
+### Bug Fixes
+
+* [WP-2850, WP-2855]: WProofreader: Incorrect underlining of spelling and grammar problems when a rich text editor or HTML editable control for right to left languages (such as Arabic, Hebrew, etc.). 
+
 ## 1.9 – 2019-05-28
 
 * A new virtual mechanism has been introduced for processing and underlying spelling and grammar errors in the wide range of the editable fields (HTML editable elements, and classic rich text editors such as CKEditor 4, Froala Editor, TinyMCE, etc.). With such an approach WProofreader creates a separate virtual layer behind the original element, and doesn’t affect the original content. 
