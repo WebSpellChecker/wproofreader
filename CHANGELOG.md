@@ -1,5 +1,15 @@
 # WProofreader Changelog
 
+## 1.9 – 2019-05-28
+
+* A new virtual mechanism has been introduced for processing and underlying spelling and grammar errors in the wide range of the editable fields (HTML editable elements, and classic rich text editors such as CKEditor 4, Froala Editor, TinyMCE, etc.). With such an approach WProofreader creates a separate virtual layer behind the original element, and doesn’t affect the original content. 
+
+Previously, it added extra span elements with styles to wrap incorrect words and phrases. In certain cases those extra elements were saved to a database which resulted in the text pollution with unwanted text unless those elements are cleaned with the additional function. The new mechanism eliminates those issues.
+
+### Bug Fixes
+
+* [WP-2859]: WProofreader: Extra spans elements added to the source mode of editors vs saved to a database.
+
 ## 1.8 – 2019-05-16
 
 * The new blocked-based mechanism of processing and underlining spelling and grammar problems is introduced for editors that are based on a custom model such as CKEditor 5, Quill, ProseMirror, etc.
