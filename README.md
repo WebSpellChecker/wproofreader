@@ -121,6 +121,7 @@ Resources
 * [WProofreader Official Page](https://webspellchecker.com/wsc-proofreader/)
 * [Documentation](https://docs.webspellchecker.net/)
 * [Terms of Service](https://webspellchecker.com/terms-of-service/)
+* [Software License Agreement](https://docs.webspellchecker.net/display/Legal/WebSpellChecker+Software+License+Agreement)
 
 Reporting Issues
 ------------
