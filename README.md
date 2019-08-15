@@ -42,7 +42,7 @@ Here is a list of most common uses cases of the WProofreader integration in your
 
 Supported Languages
 ------------
-By default WProofreader supports 16 languages: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish.
+By default WProofreader supports 17 languages: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish and Ukrainian.
 
 There are also over 150 additional languages and specialized dictionaries such as Medical and Legal available, you can check the full list [here](https://webspellchecker.com/additional-dictionaries/). 
 
@@ -53,12 +53,7 @@ Get Started
 
 1. Sign up for the [trial](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-trial) or [paid](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-paid) version here to get started with WProofreader Cloud. On the subscription, you will receive an email with your service ID, an activation key, that is required for the WProofreader service activation. 
 
-2. Specify the path to the service.
-
-```
-<script type="text/javascript" src="https://svc.webspellchecker.net/spellcheck31/wscbundle/wscbundle.js"></script>
-```
-3. Add a configuration script with the default WProofreader options.
+2. Add a configuration script with the required WProofreader options. You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
 
 ```
 <script>
@@ -70,21 +65,22 @@ Get Started
 </script>
 ```
 
-> Note: You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
+> Note: `WEBSPELLCHECKER_CONFIG` can be added to any location on a web page before or after the `wscbundle.js` script. However, if you add wscbundle.js asynchronously, this CONFIG must be added before the script.
+
+3. Add the `wscbundle.js` script.
+
+```
+<script type="text/javascript" src="https://svc.webspellchecker.net/spellcheck31/wscbundle/wscbundle.js"></script>
+```
 
 Check the full version of [Get Started with Cloud WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=442663877) guide for more details.
 
 #### WProofreader Server
 
 1. [Request a 30-day trial version of WebSpellChecker Server](https://webspellchecker.com/free-trial/).
-2. [Setup a WebSpellChecker Server package on your server](https://docs.webspellchecker.net/display/WebSpellCheckerServer53x).
-3. Specify the path to the service.
+2. [Setup a WebSpellChecker Server package on your server](https://docs.webspellchecker.net/display/WebSpellCheckerServer55x).
 
-```
-<script type="text/javascript" src="http(s)://your_host_name/spellcheck/wscbundle/wscbundle.js"></script>
-```
-
-4. Add a configuration script with the default WProofreader options.
+3. Add a configuration script with the required WProofreader options. You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
 
 ```
 <script>
@@ -96,7 +92,13 @@ Check the full version of [Get Started with Cloud WProofreader (autoSearch)](htt
    };
 </script>
 ```
-> Note: You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
+> Note: `WEBSPELLCHECKER_CONFIG` can be added to any location on a web page before or after the `wscbundle.js` script. However, if you add `wscbundle.js` asynchronously, this CONFIG must be added before the script.
+
+4. Add the `wscbundle.js` script.
+
+```
+<script type="text/javascript" src="http(s)://your_host_name/wscservice/wscbundle/wscbundle.js"></script>
+```
 
 Check the full version of [Get Started with Server WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=449970306) guide for more details.
 
