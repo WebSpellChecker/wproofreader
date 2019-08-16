@@ -16,6 +16,14 @@
 * [GitHub #14](https://github.com/WebSpellChecker/wproofreader/issues/14): [CKEditor 5] Correcting a word doesn't work well with markers
 * [GitHub #17](https://github.com/WebSpellChecker/wproofreader/issues/17): [CKEditor 5] No need for a workaround to assign the editor instance to a HTMLElement
 
+## 2.1 – 2019-07-18
+
+* Extended and improved `WEBSPELLCHECKER.init()` method for editable control creation. This method can be used for manual auto-start of WProofreader in any type of editable control including WYSIWYG editors.
+
+### Bug Fixes
+
+* [WP-2874]: WProofreader: Problem corrections are shown for all clicked problems
+
 ## 1.9.3626 – 2019-06-05
 
 ### Bug Fixes
