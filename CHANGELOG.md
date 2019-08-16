@@ -1,5 +1,21 @@
 # WProofreader Changelog
 
+## 2.2 – 2019-08-16
+
+* Grammar checking option is enabled by default for WProofreader.
+
+### Bug Fixes
+
+* [WP-2950]: WProofreader: XSS vulnerability in the Dictionary tab
+* [WP-2938]: WProofreader: Lost accessibility to the badge using 'Tab' and 'Enter'
+* [GitHub #1](https://github.com/WebSpellChecker/wproofreader/issues/1): [CKEditor 4] WProofreader is active in source mode highlighting HTML tags [CKEditor 4]
+* [GitHub #8](https://github.com/WebSpellChecker/wproofreader/issues/8): [CKEditor 5] Word correction doesn't work after list item indentation
+* [GitHub #7](https://github.com/WebSpellChecker/wproofreader/issues/7): [CKEditor 5] Crash after correcting a word
+* [GitHub #10](https://github.com/WebSpellChecker/wproofreader/issues/10): [CKEditor 5] Modifier keys close WProofreader balloon
+* [GitHub #12](https://github.com/WebSpellChecker/wproofreader/issues/12): [CKEditor 5] WProofreader balloon opens while dropdown is opened
+* [GitHub #14](https://github.com/WebSpellChecker/wproofreader/issues/14): [CKEditor 5] Correcting a word doesn't work well with markers
+* [GitHub #17](https://github.com/WebSpellChecker/wproofreader/issues/17): [CKEditor 5] No need for a workaround to assign the editor instance to a HTMLElement
+
 ## 1.9.3626 – 2019-06-05
 
 ### Bug Fixes
