@@ -24,6 +24,20 @@
 
 * [WP-2874]: WProofreader: Problem corrections are shown for all clicked problems
 
+## 2.0 – 2019-06-19
+
+* [WP-2868]: Improved performance by changing the maximum number of sentences per request has been increased to 10 and number of words per request changed from 10 to 100.
+
+### Bug Fixes
+
+* [WP-2829]: WProofreader: Problem underline is cut off by area of checking
+* [WP-2832]: WProofreader: Drag&drop doesn’t remove existing problems underlining 
+* [WP-2833]: Incomplete hover of the spelling problem of several words separated by a line break
+* [WP-2872]: WProofreader: Problem markup appears in wrong position in <textarea>
+* [WP-2288]: WProofreader: ‘Finish checking’ button is blocking the main functionality of ‘Proofread in a dialog’ mode
+* [WP-2837]: WProofreader: Sections separation lines on the Dictionary tab are missing in Internet Explorer
+
+
 ## 1.9.3626 – 2019-06-05
 
 ### Bug Fixes
