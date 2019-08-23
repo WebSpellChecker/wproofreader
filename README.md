@@ -111,7 +111,7 @@ This is the list of officially supported browsers. WProofreader may also work in
 * Firefox (the latest)
 * Safari (the latest)
 * MS Edge (the latest)
-* Internet Explorer 11.0+ (close to full support)
+* Internet Explorer 11.0 (close to full support)
 * Mobile Chrome (the latest)
 * Mobile Safari (the latest)
 
