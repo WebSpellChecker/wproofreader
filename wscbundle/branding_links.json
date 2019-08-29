@@ -1,0 +1,10 @@
+{
+	"BRANDING_BASE_SUPPORT_URL": "https://webspellchecker.com/contact-us/",
+	"BRANDING_SUPPORT_MAIL": "support@webspellchecker.net",
+	"BRANDING_MIGRATION_MANUAL_URL": "https://docs.webspellchecker.net/display/WebSpellCheckerServer53x/Migrating+from+WebSpellChecker+Cloud+to+Server+Application",
+	"BRANDING_USER_DICT_MANUAL_URL": "https://docs.webspellchecker.net/display/WebSpellCheckerServer53x/Configuring+Server+User+Dictionary",
+	"BRANDING_CUSTOM_DICT_MANUAL_URL": "https://docs.webspellchecker.net/display/WebSpellCheckerServer53x/Configuring+Server+Custom+Dictionary",
+	"BRANDING_MORE_LANG_URL": "https://webspellchecker.com/additional-dictionaries/",
+	"BRANDING_EC_USER_MANUAL": "https://webspellchecker.com/app/user-manual/scayt_for_editable_controls_user_manual.pdf",
+	"BRANDING_CK_USER_MANUAL": "https://webspellchecker.com/app/user-manual/scayt_plugin_for_ckeditor4_user_manual.pdf"
+}
