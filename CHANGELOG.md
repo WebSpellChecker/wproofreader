@@ -1,5 +1,13 @@
 # WProofreader Changelog
 
+## 2.2.3712 – 2019-08-28
+
+### Bug Fixes
+
+* [WP-2926]: WProofreader: The bullet points outside of the correction popup box
+* [WP-3006]: WProofreader: `autoDestroy` functionality doesn't work properly in IE 11 which results in `Unspecified errors` in the console
+* [WP-2978]: WProofreader: Spinner in the badge is endlessly spinning after the dialog is closed
+
 ## 2.2 – 2019-08-16
 
 * Grammar checking option is enabled by default for WProofreader.
