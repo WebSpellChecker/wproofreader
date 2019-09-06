@@ -1,5 +1,12 @@
 # WProofreader Changelog
 
+## 2.2.3717 – 2019-09-05
+
+### Bug Fixes
+
+* [WP-2984]: WProofreader: Settings tab in the dialog are not localized to other languages
+* [WP-2984]: WProofreader: Disable WProofreader in `Code View` in Froala Editor v3
+
 ## 2.2.3712 – 2019-08-28
 
 ### Bug Fixes
