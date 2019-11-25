@@ -1,5 +1,15 @@
 # WProofreader Changelog
 
+## 2.2.3825 – 2019-11-14
+
+* Improved keyboard navigation. Now along Enter key press, the action can be confirmed using Space. Related to [GitHub #18](https://github.com/WebSpellChecker/wproofreader/issues/18).
+* Updated UI localization for the German language.
+
+### Bug Fixes
+
+* [WP-3029]: WProofreader: Native browser spellchecker is not disabled in CKEditor 5 when WProofreader is enabled which results in double underlines
+* [GitHub #19](https://github.com/WebSpellChecker/wproofreader/issues/19): WProofreader requires unsafe-inline and unsafe-eval to work (CSP)
+
 ## 2.2.3717 – 2019-09-05
 
 ### Bug Fixes
