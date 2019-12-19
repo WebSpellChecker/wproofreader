@@ -1,5 +1,22 @@
 # WProofreader Changelog
 
+## 2.3.3915 – 2019-12-10
+
+* Added UI localization for the Simplified Chinese and Japanese languages.
+* Minor improvements accessibility based on the accessibility validation tools (reports).
+* The height of the section with the list of words on the Dictionaries tab is increased to 360 pixels to improve usability.
+
+### Bug Fixes
+
+* [WP-3149] WProofreader: Highlighting of a selected language is cropped in Languages tab when using keyboard navigation
+* [WP-3153] WProofreader: Redundant 'aria-level' and 'aria-expanded' tags with empty value present in button snippets
+* [WP-3155] WProofreader: Some elements have insufficient color contrast 
+* [WP-3157] WProofreader: Invalid ARIA attribute values for 'aria-labelledby' tag in checkboxes, radio buttons and inputs
+* [WP-3158] WProofreader: Invalid ARIA roles used
+* [WP-3180] WProofreader: Badge disappears in iframe
+* [WP-3168] WProofreader: Actions in the badge are shifted in the expanded/active state
+* [WP-3163] WProofreader: Insufficient styles protection of elements
+
 ## 2.3 – 2019-11-25
 
 This version brings major user interface updates for WProofreader based on the user feedback that we collected: 
