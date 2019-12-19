@@ -1,5 +1,35 @@
 # WProofreader Changelog
 
+## 2.3 – 2019-11-25
+
+This version brings major user interface updates for WProofreader based on the user feedback that we collected: 
+* Both WProofreader dialog and the badge have more contrast colors for all elements, including the icons and the color of the text being checked.
+* When using keyboard navigation to move around WProofreader dialog, badge, and Settings dialog, you can benefit from the addition highlighting of the elements currently in focus.
+* We have extended and simplified each view of the Settings sections, including Languages, Options, and Dictionaries.
+* Pop-up notifications on the changes made in the Settings sections now appear at the bottom of the dialog to avoid overlapping of the top section of WProofreader dialog.
+* Improved experience and working with dictionaries allowing even easier to disconnect the dictionaries which may be no longer required and connect them any time later. 
+* When proofreading in a dialog mode now, users see only one discovered problem and suggestions to it at a time allowing easier navigation and better user experience in text proofreading. 
+
+For details, refer to the updated version of WProofreader User guide for the [Server](https://docs.webspellchecker.net/display/WebSpellCheckerServer55x/WProofreader+User+Guide) and [Cloud](https://docs.webspellchecker.net/display/WebSpellCheckerCloud/WProofreader+User+Guide). 
+
+Improvements in accessibility and navigation. We have revised and updated the already existing navigation when using a keyboard only: 
+* The keyboard combinations are now simplified.
+* We have introduced Space as one more key to confirm your actions or changes made in addition to the Enter key which could be used before.
+* User interface response is now better as the highlighting of the selected element is more precise and contrasting with the rest of the UI.
+* You can navigate between the discovered problems and their suggestions using either left and right arrow keys when proofreading in WProofreader dialog. 
+
+For details, refer to the updated version of WProofreader keyboard navigation guide for the [Server](https://docs.webspellchecker.net/display/WebSpellCheckerServer55x/WProofreader+Keyboard+Navigation) and [Cloud](https://docs.webspellchecker.net/display/WebSpellCheckerCloud/WProofreader+Keyboard+Navigation) versions. 
+
+### Bug Fixes
+
+* [WP-3124] WProofreader: Virtual markup with underlined problems shifts if to open an editor in a full screen
+* [WP-3127] WProofreader: Memory leaks in Internet Explorer 11 and MS Edge
+* [WP-3135] WProofreader: The grammar problem description tooltip is not capitalized
+* [WP-3129] WProofreader: Incorrect color of the number of errors in the badge when integrated into TinyMCE 4 (black instead of white)
+* [WP-3145] WProofreader: Bootstrap label type overwrites dialog settings and languages list labels style
+* [WP-3146] WProofreader: Foundation CSS styles breaks checkboxes alignment on the Options tab
+
+
 ## 2.2.3825 – 2019-11-14
 
 * Improved keyboard navigation. Now along Enter key press, the action can be confirmed using Space. Related to [GitHub #18](https://github.com/WebSpellChecker/wproofreader/issues/18).
