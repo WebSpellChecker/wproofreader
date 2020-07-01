@@ -4,12 +4,12 @@ WProofreader
 ![WProofreader UI](https://webspellchecker.com/app/images/wproofreader-ui.png)
 
 
-**WebSpellChecker Proofreader (WProofreader)** is a new ultimate multi-language proofreading tool. It provides both instant and on-click proofreading modes in a new convenient UI. End users just need to hover on the marked words for instant correction suggestions or click the dialog icon in the bottom right corner to have the whole text proofread at once.
+**WebSpellChecker Proofreader (WProofreader)** is multilingual proofreading tool for web applications. It enables grammar and spell check combining spelling and grammar suggestions while you type or work with your text in a dedicated dialog. End users just need to hover on the marked words for instant correction suggestions or click the dialog icon in the bottom right corner to have the whole text proofread at once.
 
 Here’s why to choose WProofreader for your web app:
 * Both instant spelling and grammar checking, and proofreading in a dialog are now available simultaneously.
 * You’ll need a single script to integrate in all types of editable fields. 
-* The Auto-search takes care of detecting new editable fields and enabling proofreading in them automatically.
+* The auto-search takes care of detecting new editable fields and enabling proofreading in them automatically.
 * New clean and comfy UI includes intuitive suggestion boxes, proofreading on hover, and more.
 * The powerful engine checks spelling in over 150 and grammar – in 18 languages in all modern browsers.
 * WProofreader is WAI-compliant, up to WCAG 2.1 and Section 508 accessibility standards. The features like keyboard navigation and improved UI readability were added to allow the users, regardless of the limitations they might be facing, to easily proofread their texts in a most convenient manner.
@@ -36,8 +36,8 @@ Integrations
 ------------
 Here is a list of most common uses cases of the WProofreader integration in your web app:
 
-* HTML editable controls such as ```<input>``` or ```<textarea>``` and elements with contenteditable attribute set to ‘true’ e.g. ```<div>```, ```<iframe>```;
-* Modern WYSIWYG editors such as [CKEditor 4](https://ckeditor.com/ckeditor-4/), [CKEditor 5](https://ckeditor.com/ckeditor-5/), [TinyMCE](https://www.tiny.cloud/), [Froala Editor](https://www.froala.com/wysiwyg-editor), [Kendo UI](https://www.telerik.com/kendo-ui), [Quill](https://quilljs.com/), [Redactor](https://imperavi.com/redactor/), [Summernote](https://summernote.org/), [RadEditor - Telerik ASP.NET Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx), [ProseMirror](https://prosemirror.net/), [Scribe](https://github.com/guardian/scribe), [Trix](https://trix-editor.org/), etc.
+* HTML editable controls such as ```<textarea>``` and elements with contenteditable attribute set to ‘true’ e.g. ```<div>```, ```<iframe>```;
+* Modern WYSIWYG editors such as [CKEditor 4](https://ckeditor.com/ckeditor-4/), [CKEditor 5](https://ckeditor.com/ckeditor-5/), [TinyMCE](https://www.tiny.cloud/), [Froala Editor](https://www.froala.com/wysiwyg-editor), [Kendo UI](https://www.telerik.com/kendo-ui), [Quill](https://quilljs.com/), [Redactor](https://imperavi.com/redactor/), [Summernote](https://summernote.org/), [RadEditor - Telerik ASP.NET Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx), [ProseMirror](https://prosemirror.net/), [Scribe](https://github.com/guardian/scribe), [Trix](https://trix-editor.org/), [Slate](https://www.slatejs.org/examples/richtext), [Draft.js](https://draftjs.org/), etc.
 * Plugin for WordPress 4.x and WordPress 5.x. Based on the core of WProofreader, we have built a new plugin for WordPress. Check the official repo of [WProoofreader plugin for WordPress](https://github.com/WebSpellChecker/wproofreader-plugin-wordpress/) for more details.
 
 Supported Languages
@@ -51,16 +51,16 @@ Get Started
 
 #### WProofreader Cloud
 
-1. Sign up for the [trial](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-trial) or [paid](https://www.webspellchecker.net/signup/hosted-signup.html#webspellchecker-proofreader-paid) version here to get started with WProofreader Cloud. On the subscription, you will receive an email with your service ID, an activation key, that is required for the WProofreader service activation. 
+1. [Sign up for the trial version](https://webspellchecker.com/free-trial/) to get started with WProofreader Cloud. On the subscription, you will receive an email with your service ID, an activation key, that is required for the WProofreader service activation. 
 
-2. Add a configuration script with the required WProofreader options. You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
+2. Add a configuration script with the required WProofreader options. You can adjust the default settings with the extra [API options](https://webspellchecker.com/docs/api/wscbundle/Options.html).
 
 ```
 <script>
   window.WEBSPELLCHECKER_CONFIG = {
     autoSearch: true,
-    enableGrammar: true,
     serviceId: 'your-service-ID'
+    ...
    };
 </script>
 ```
@@ -73,22 +73,22 @@ Get Started
 <script type="text/javascript" src="https://svc.webspellchecker.net/spellcheck31/wscbundle/wscbundle.js"></script>
 ```
 
-Check the full version of [Get Started with Cloud WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=442663877) guide for more details.
+Check the full version of [Get Started with Cloud WProofreader](https://docs.webspellchecker.net/display/WebSpellCheckerCloud/WProofreader) guides for more details.
 
 #### WProofreader Server
 
 1. [Request a 30-day trial version of WebSpellChecker Server](https://webspellchecker.com/free-trial/).
 2. [Setup a WebSpellChecker Server package on your server](https://docs.webspellchecker.net/display/WebSpellCheckerServer55x).
 
-3. Add a configuration script with the required WProofreader options. You can adjust the default settings with the extra [API options](http://dev.webspellchecker.net/api/wscbundle/).
+3. Add a configuration script with the required WProofreader options. You can adjust the default settings with the extra [API options](https://webspellchecker.com/docs/api/wscbundle/Options.html).
 
 ```
 <script>
   window.WEBSPELLCHECKER_CONFIG = {
     autoSearch: true,
-    enableGrammar: true,
     servicePort: '2880',
     servicePath: '/'
+    ...
    };
 </script>
 ```
@@ -100,7 +100,7 @@ Check the full version of [Get Started with Cloud WProofreader (autoSearch)](htt
 <script type="text/javascript" src="http(s)://your_host_name/wscservice/wscbundle/wscbundle.js"></script>
 ```
 
-Check the full version of [Get Started with Server WProofreader (autoSearch)](https://docs.webspellchecker.net/pages/viewpage.action?pageId=449970306) guide for more details.
+Check the full version of [Get Started with Server WProofreader](https://docs.webspellchecker.net/display/WebSpellCheckerServer55x/WProofreader) guides for more details.
 
 Browser Support
 ------------
@@ -123,7 +123,7 @@ Resources
 * [WProofreader Official Page](https://webspellchecker.com/wsc-proofreader/)
 * [Documentation](https://docs.webspellchecker.net/)
 * [Terms of Service](https://webspellchecker.com/terms-of-service/)
-* [Software License Agreement](https://docs.webspellchecker.net/display/Legal/WebSpellChecker+Software+License+Agreement)
+* [Software License Agreement](https://webspellchecker.com/legal/software-license-agreement/)
 
 Reporting Issues
 ------------
