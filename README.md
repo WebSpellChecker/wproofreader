@@ -40,13 +40,13 @@ Here is a list of most common uses cases of the WProofreader integration in your
 * Modern WYSIWYG editors such as [CKEditor 4](https://ckeditor.com/ckeditor-4/), [CKEditor 5](https://ckeditor.com/ckeditor-5/), [TinyMCE](https://www.tiny.cloud/), [Froala Editor](https://www.froala.com/wysiwyg-editor), [Kendo UI](https://www.telerik.com/kendo-ui), [Quill](https://quilljs.com/), [Redactor](https://imperavi.com/redactor/), [Summernote](https://summernote.org/), [RadEditor - Telerik ASP.NET Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx), [ProseMirror](https://prosemirror.net/), [Scribe](https://github.com/guardian/scribe), [Trix](https://trix-editor.org/), [Slate](https://www.slatejs.org/examples/richtext), [Draft.js](https://draftjs.org/), etc.
 * Plugin for WordPress 4.x and WordPress 5.x. Based on the core of WProofreader, we have built a new plugin for WordPress. Check the official repo of [WProoofreader plugin for WordPress](https://github.com/WebSpellChecker/wproofreader-plugin-wordpress/) for more details.
 
-Supported Languages
+Supported languages
 ------------
 By default WProofreader supports 17 languages: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish and Ukrainian.
 
 There are also over 150 additional languages and specialized dictionaries such as Medical and Legal available, you can check the full list [here](https://webspellchecker.com/additional-dictionaries/). 
 
-Get Started
+Get started
 ------------
 
 #### WProofreader Cloud
@@ -102,7 +102,7 @@ Check the full version of [Get Started with Cloud WProofreader](https://docs.web
 
 Check the full version of [Get Started with Server WProofreader](https://docs.webspellchecker.net/display/WebSpellCheckerServer55x/WProofreader) guides for more details.
 
-Browser Support
+Browser support
 ------------
 
 This is the list of officially supported browsers. WProofreader may also work in other browsers and environments but we unable to check all of them and guarantee proper work.
@@ -125,7 +125,7 @@ Resources
 * [Terms of Service](https://webspellchecker.com/terms-of-service/)
 * [Software License Agreement](https://webspellchecker.com/legal/software-license-agreement/)
 
-Reporting Issues
+Reporting issues
 ------------
 
 We use GitHub Issues as the official public bug tracker for WProofreader. Here are some recommendations to take into account when reporting an issue:
@@ -133,7 +133,7 @@ We use GitHub Issues as the official public bug tracker for WProofreader. Here a
 * Provide steps which help us to reproduce an issue. A sample page or JSFiddle is always welcomed.
 * Some issues may be browser and integration-specific.  So, please specify what browser and integration you encountered the issue.
 
-Technical Support or Questions
+Technical support or questions
 ------------
 
 Holders of an active subscription to the services or a commercial license have access to professional technical assistance directly from the WebSpellChecker team. [Contact us here](https://webspellchecker.com/contact-us/).
