@@ -1,5 +1,89 @@
 # WProofreader Changelog
 
+## Coming soon 5.8.0.0 (2.4.xxxx) – 2020-12-16
+
+## 5.7.1.1 (2.4.4254) – 2020-11-17
+
+* Improved mechanism of highlighting and replacing problems in textarea elements.
+
+### Bug Fixes
+
+* [WP-3588] WProofreader: Misaligned badge if iframe body is min-height 100%
+
+
+## 5.7.0.0 (2.x.xxxx) – 2020-10-14
+
+* Added a new API option `restoreNativeSpellCheck` that restores a native browser spell checker if WProofreader is switched to the disable state.  Learn more in [API options](https://webspellchecker.com/docs/api/wscbundle/Options.html).
+
+## 5.6.4.0 (2.x.xxxx) – 2020-09-17
+
+* Improved paragraph-based mechanism for larger text proofreading to decrease load on a client’s browser.
+* Minor improvements to the French and Canadian French localization.
+* Enhanced Ignore functionality which allows users to ignore problem once.
+
+## 5.6.3.0 (2.x.xxxx) – 2020-08-03
+
+* Added new `ignoreAttributes` and `ignoreClasses` options that enable advanced mechanisms for skipping elements by classes and attributes during text check. Learn more in [API options](https://webspellchecker.com/docs/api/wscbundle/Options.html).
+
+## 5.6.2.0 (2.x.xxxx) – 2020-07-08
+
+Added option `diabledRules` in WProofreader that allows specifying an array of grammar rules to be disabled for all users. Check this [guide for details](https://docs.webspellchecker.net/display/WebSpellCheckerCloud/How+to+disable+a+certain+grammar+rule+for+all+users).
+
+## 5.6.1.0 (2.x.xxxx) – 2020-06-26
+
+* [WP-3419] WProofreader: Tooltip for a language selector in the badge is missing
+
+## 5.6.0.0 (2.x.xxxx) – 2020-06-04
+
+* Added ability to select a language for checking directly from the WProofreader badge without going to settings. It can be enabled using `enableLanguagesInBadgeButton` option. By default, it is disabled. 
+* Restored the functionality of detecting the browser language and using it for the WProofreader interface localization. If not detected automatically, the default language for localization will be used. It defaults to American English.
+* Extended the ignore all functionality to be applied globally for a whole page instead of being limited to a single instance. After the browser’s page reload, the ignored information will be reset. 
+* Improved support and integrations with two modern rich text editors: `Slate.js` and `Draft`.
+* Added a new `onStatistics` callback function that allows listening to such actions made when using the app: replace a problem, ignore all problems, add a word to the dictionary, remove a word from the dictionary. Check [API documentation](https://webspellchecker.com/docs/api/wscbundle/Options.html) for details.
+
+### Bug Fixes
+* [WP-3391] WProofreader: WProofreader: Badge overlaps browser scrolls on Windows
+* [WP-3384] WProofreader: Broken styles and shifted underlines in the WordPress images description
+* [WP-3381] WProofreader: Long words in the problem section of the dialog mode broke the styles
+
+## 5.5.9.0 (2.x.xxxx) – 2020-04-21
+
+* Turned on the spelling check option `ignoreWordsWithNumbers` that during check ignores words with numbers (e.g. 1st, 2nd, etc.). This change was dictated by user feedback reflected on the statistics of the most popular words added to dictionaries. 
+* The `Auto Detect` option that auto-defines a language based on the user input is pinned to the top of the language list for faster access and convenience.
+
+### Bug Fixes
+* [WP-3334] WProofreader: Clicking on ‘More Misc’ icon of Froala increases the number of errors shown on the badge
+* [WP-3335] WProofreader: Switching to ‘Code View’ of Froala increases the number of errors shown on the badge by 2-times
+
+## 5.5.8.0 (2.4.xxxx) – 2020-03-26
+
+* Improved the overall performance of WProofreader at least by 3 times including the visual mechanism responsible for highlighting problems as a user is typing in rich text editors. 
+* Improved the highlighting mechanism in the textarea elements, the delay between checks decreased from 2s to 500ms.
+* Added a new `theme` option to change the default style theme of WProofreader. The available theme options: `default`, `gray`, `custom`. The custom theme allows modifying the default theme using CSS styles.
+* Introduced new callback functions `onAddWordToUserDictionary` and `onDeleteWordFromUserDictionary` to track when a word is added or removed from a personal user dictionary. 
+* Added an extra callback function `onCommitOptions` that allows monitoring the changes in the spellcheck ignore options and a selected language.
+* Initialization using auto-search (`autoSearch:true`) will respect `spellcheck=”false”` attribute in HTML textarea and input elements and won’t be started at all. However, this won’t be applied to the rich text editors.
+* Added a separate `data-wsc=”false”` attribute that will instruct auto-search functionality not to start in the element that has such an attribute. This attribute won’t be taken into consideration if the application is started manually using `init()` method.
+* Extended the ignore elements list with `code` and `pre` elements that will be ignored during the check.
+
+### Bug Fixes
+* [WP-3274] WProofreader: Suggestion popup has wrong height in Draft.js editor.
+
+## 5.5.7.3 (2.3.xxxx) – 2020-01-21
+
+### Bug Fixes
+* [WP-3197] WProofreader: Underlines are not removed for the words which are in the dictionary after it’s connected
+* [WP-3198] WProofreader: JS error `”Cannot read property ‘setFocus’ of null at wscbundle.js:44”` in console when a user deletes a user dictionary
+* [WP-3256], [GitHub #21](https://github.com/WebSpellChecker/wproofreader/issues/21): WProofreader: Incorrect highlighting of problems in track changes feature of CKEditor 5
+* [WP-3263] WProofreader: Scroll to the next problem doesn’t work after replace/add word/Ignore all in `“Proofread in dialog”` mode
+* [WP-3264] WProofreader: Problems remain highlighted in the editor after using Ignore all in the `“Proofread in dialog”` mode
+* [WP-3192] WProofreader: Missing or multiple whitespace problem type is incorrectly displayed in the `“Proofread in dialog”` mode 
+
+## 5.5.7.0 (2.3.xxxx) – 2019-12-25
+
+* Added localization of the default language list on the Language tab of the settings dialog to a language that is set by the localization option.
+
+
 ## 2.3.3915 – 2019-12-10
 
 * Added UI localization for the Simplified Chinese and Japanese languages.
