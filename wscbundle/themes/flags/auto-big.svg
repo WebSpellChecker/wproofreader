@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#EDEDED;}
+	.st1{fill:#C4C4C4;filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{mask:url(#mask0_1_);}
+	.st3{fill:#E3453C;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#3C5AA3;}
+	.st6{fill:none;stroke:#757575;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:#C4C4C4;filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st8{mask:url(#mask0_2_);}
+	.st9{fill:none;stroke:#E20A0A;stroke-width:22;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:#757575;}
+	.st11{fill:none;stroke:#E20A0A;stroke-width:26;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#757575;stroke-width:1.2483;stroke-miterlimit:10;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#757575;stroke-width:1.1778;stroke-miterlimit:10;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#757575;stroke-width:1.2942;stroke-miterlimit:10;}
+	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#757575;stroke-width:0.8239;stroke-miterlimit:10;}
+	
+		.st16{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#757575;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st17{fill:none;stroke:#757575;stroke-width:1.0755;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#757575;stroke-width:0.7821;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st19{fill:none;stroke:#757575;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#F8F8F8;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st21{clip-path:url(#SVGID_2_);}
+	.st22{fill:url(#SVGID_3_);}
+	.st23{opacity:0.4;}
+	.st24{fill:none;stroke:#F8F8F8;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st25{clip-path:url(#SVGID_5_);}
+	.st26{fill:url(#SVGID_6_);}
+	.st27{opacity:0.25;}
+	.st28{fill:none;stroke:#F8F8F8;stroke-width:19.4062;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st29{fill:none;stroke:#AD4A7B;stroke-width:16.4953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<path class="st10" d="M256,492.1c-63.1,0-122.3-24.6-166.9-69.1C44.5,378.3,19.9,319.1,19.9,256c0-63.1,24.6-122.3,69.1-166.9
+			C133.7,44.5,192.9,19.9,256,19.9c63.1,0,122.3,24.6,166.9,69.1s69.1,103.9,69.1,166.9c0,63.1-24.6,122.3-69.1,166.9
+			S319.1,492.1,256,492.1z M256,45.9C140.2,45.9,45.9,140.2,45.9,256c0,115.8,94.2,210.1,210.1,210.1S466.1,371.8,466.1,256
+			C466.1,140.2,371.8,45.9,256,45.9z"/>
+	</g>
+	<g>
+		<path class="st10" d="M256,492.1c-29.5,0-56.2-26.1-75.2-73.5c-17.5-43.6-27.1-101.4-27.1-162.6s9.6-118.9,27.1-162.6
+			c19-47.4,45.7-73.5,75.2-73.5c29.5,0,56.2,26.1,75.2,73.5c17.5,43.6,27.1,101.4,27.1,162.6s-9.6,118.9-27.1,162.6
+			C312.2,466,285.5,492.1,256,492.1z M256,45.9c-36.1,0-76.2,86.3-76.2,210.1S220,466.1,256,466.1c36.1,0,76.2-86.3,76.2-210.1
+			S292.1,45.9,256,45.9z"/>
+	</g>
+	<g>
+		<path class="st10" d="M475.1,269H32.9c-7.2,0-13-5.8-13-13c0-7.2,5.8-13,13-13h442.2c7.2,0,13,5.8,13,13
+			C488.1,263.2,482.3,269,475.1,269z"/>
+	</g>
+	<g>
+		<path class="st10" d="M256,158.2c-65.1,0-115.7-3.9-150.3-11.5c-26-5.7-34.9-11.9-37.4-14.3L86,113.3c0,0-0.2-0.2-0.7-0.6
+			c1.1,0.8,29,19.4,170.8,19.4c141.8,0,169.7-18.6,170.8-19.4c-0.5,0.4-0.7,0.6-0.7,0.6l17.7,19.1c-2.6,2.4-11.4,8.6-37.4,14.3
+			C371.8,154.3,321.2,158.2,256,158.2z"/>
+	</g>
+	<g>
+		<path class="st10" d="M85.3,399.3c0.5-0.4,0.7-0.6,0.7-0.6l-17.7-19.1c2.6-2.4,11.4-8.6,37.4-14.3c34.6-7.6,85.2-11.5,150.3-11.5
+			s115.7,3.9,150.3,11.5c26,5.7,34.9,11.9,37.4,14.3l-17.7,19.1c0,0,0.2,0.2,0.7,0.6c-1.1-0.8-29-19.4-170.8-19.4
+			C114.2,379.9,86.4,398.5,85.3,399.3z"/>
+	</g>
+</g>
+</svg>
