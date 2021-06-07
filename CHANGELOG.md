@@ -1,6 +1,43 @@
 # WProofreader Changelog
 
-## Coming soon 5.8.0.0 (2.4.xxxx) – 2020-12-16
+## 5.10.0.0 (3.0.4457) – 2021-02-11
+
+* Implemented support of right-to-left (RTL) mode for a new floating proofread dialog. Thus, user interface elements for such RTL languages as Arabic or Hebrew will be mirrored compared to the left-to-right languages.
+* Updated localization of the WProofreader user interface, specifically suggestion pop-up and floating dialog, for English (en), French (fr), Arabic (ar), Hebrew (he), Ukrainian (uk) and Italian (it). Also created localization for Russian (ru).
+* Added a new onToggle callback that allows listening to the application state changes from enabled to disabled.
+
+### Bug Fixes
+
+* [WP-3737] WProofreader: Replace action doesn’t work in the unfocused state of inline CKEditor 4
+* [WP-3747] WProofreader: Overwritten style of font from normal to bold and no line break in dialog
+* [WP-3723, GitHub#18]: WProofreader plugin for CKE5: If backend is unavailable for more than 5 requests, the instances states won’t be synchronized
+
+## 5.9.0.0 (3.0.xxxx) – 2021-01-28
+
+* Static proofread in dialog mode was replaced with a compact and intuitive floating one. Now the dialog collects only suggestions without extracting the whole text from the original text field.
+* The color of detected grammar-type errors changed from green to blue.
+* [[GitHub#180](https://github.com/WebSpellChecker/ckeditor-plugin-scayt/issues/180)] API | SCAYT | WProofreader: Alphabetical sorting of personal dictionary
+
+### Bug Fixes
+
+* [WP-3463] WProofreader: Misspelled words are not highlighted if `contenteditable=’false’` mentioned in the same element as text to be spell checked
+* [WP-3434, [GitHub#26](https://github.com/WebSpellChecker/wproofreader/issues/26)] WProofreader: There is no tooltip on hover to the badge with the problems counter
+* [WP-3610] WProofreader: Broken styles of badge and suggestion pop-up on Square website
+* [WP-3677] WProofreader: Disabled badge overlay text at the right corner of editable field
+* [WP-3695] WProofreader: App fails to start in inline elements like span
+* [WP-3701] WProofreader: App fails to start with enabled detectLocalizationLanguage option
+* [WP-3707] WProofreader/SCAYT core: Incorrect sentence detection with `<sub>` and `<sup>` HTML elements
+* [WP-3711] WProofreader: Suggestion can’t be applied if the badge is focused
+* [WP-3718] WProofreader: App can’t be initialized properly in `<textarea>` if user ignore `<div>` elements
+
+## 5.8.1.0 (2.4.xxxx) – 2020-12-30
+
+* WProofreader user interface is localized to the Luxembourgish language. The language code for localizations is `lb`.
+* [WP-3689] WProofreader: Styles broken when `‘padding: 0’, ‘margin: 0’ and ‘border: none’` are missing for the wrappers and badge
+
+## 5.8.0.0 (2.4.xxxx) – 2020-12-16
+
+* Updated UI of suggestion pop-up for all themes (standard, gray, ckeditor5). Now it’s more compact and with intuitive icons. 
 
 ## 5.7.1.1 (2.4.4254) – 2020-11-17
 
