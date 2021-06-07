@@ -1,5 +1,47 @@
 # WProofreader Changelog
 
+## 5.12.1.0 (3.2.4522) – 2021-05-12
+
+* Default language changed from American English (`en_US`) to Auto Detect (`auto`). This will be applied if no language is predefined in configuration using lang option.
+* Added a new API option `autoLangPriorities` that allows to define priorities of languages detected by auto-detect. For example, if language auto-detect defines `en`, then British English (`en_GB`) should be used during check request. It is applicable only if `auto` is available and used as a default language.
+* The size of the squeezed badge is decreased by 40%. This state is enabled automatically for fields with small height and when entered text overlap the badge.
+
+Find out more about all available customization options for [WProofreader in API documentation](https://webspellchecker.com/docs/api/wscbundle/Options.html).
+
+### Bug Fixes
+
+* [WP-3887] WProofreader: Extra badge appears after copy/paste in Quill editor field
+
+## 5.12.0.0 (3.2.xxxx) – 2021-04-07
+
+* Implemented support of the dark theme. Can be enabled by adding: `theme: ‘dark’`,
+* The size of the orange floating badge is now dynamically adjusted based on the size of the input area and text position.
+* Mirrored the orange badge and its elements in case of right-to-left (RTL).
+* Updated user interface localization for Norwegian (`no`), Swedish (`sv`) and Danish (`da`) based on the recommendations from the client.
+* Added a new user interface localization for Swiss German (`de-ch`) prepared by one of the customers.
+
+### Bug Fixes
+
+* [WP-3838] WProofreader jumps when user changes settings on the page with many instances
+* [WP-3827] WProofreader: Dialog is not closing after switching to CKEditor 4 full view
+
+## 5.11.0.0 (3.1.xxxx) – 2021-03-17
+
+* Implemented global proofread dialog that aggregates all suggestions from the editable element on the page. Enabled by default: `globalProofreadDialog: true`.
+* Storing spell check ignore options and language selection globally for the same origin (`domain/subdomain+protocol//:domain+port`) in the browser local storage instead of per instance storage. Enabled by default: `localStorage [options, language]`.
+* Implemented per page options and language synchronization mechanism. Enabled by default: `syncOptions = true`. It means that language selected in one instance, will be applied for all consequent and existing instances.
+* Updated localization of UI for the Ukrainian and Russian languages.
+
+### Bug Fixes
+
+* [WP-3794] WProofreader: Elements position is shifted if initialized in elements with `display: inline;`
+* [WP-3781] WProofreader: When removing a word from dictionary Russian localization says about removing a dictionary instead
+* [WP-3786] WProofreader: ‘Settings’ title is shown on dialog window if it is reopened from the badge
+* [WP-3795] WProofreader: Badge doesn’t refresh the suggestions count
+* [WP-3814] WProofreader: Wrong focus after replace action in dialog
+* [WP-3822] TypeError: Unable to get property `doctype` of undefined or null reference for WProofreader in EdgeHTML
+* [WP-3824] WProofreader: Icons for such actions as Add, Ignore, More displaced in hovered state in IE11
+
 ## 5.10.0.0 (3.0.4457) – 2021-02-11
 
 * Implemented support of right-to-left (RTL) mode for a new floating proofread dialog. Thus, user interface elements for such RTL languages as Arabic or Hebrew will be mirrored compared to the left-to-right languages.
