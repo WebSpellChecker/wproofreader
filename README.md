@@ -1,4 +1,4 @@
-WProofreader
+WProofreader add-on for RTEs and HTML controls
 =====================
 
 ![WProofreader UI](https://webspellchecker.com/app/images/wproofreader-ui.png)
@@ -13,28 +13,17 @@ Here’s why to choose WProofreader for your web app:
 * New clean and comfy UI includes intuitive suggestion boxes, proofreading on hover, and more.
 * The powerful engine checks spelling in over 150 and grammar – in 18 languages in all modern browsers.
 * WProofreader is WAI-compliant, up to WCAG 2.1 and Section 508 accessibility standards. The features like keyboard navigation and improved UI readability were added to allow the users, regardless of the limitations they might be facing, to easily proofread their texts in a most convenient manner.
-* Personal user dictionaries. Some rare or field-specific words may be not recognized by our proofreading engine and reported as a mistake. If the word is spelled correctly a user can add it to his or her own dictionary, to prevent it from being reported in the future.
-* Global custom dictionaries are company-wide vocabularies, which are created and set at an admin level on top of the base languages. 
+* User custom dictionaries. Some rare or field-specific words may be not recognized by our proofreading engine and reported as a mistake. If the word is spelled correctly a user can add it to his or her own dictionary, to prevent it from being reported in the future.
+* Company custom dictionaries are company-wide vocabularies, which are created and set at an admin level on top of the base languages. 
 
 Demos
 ------------
-* [WProofreader Demos](https://webspellchecker.com/wsc-proofreader/#demos)
-* [WProofreader for HTML Editable Controls (Textarea)](https://webspellchecker.com/wsc-proofreader/#proofreader-textarea)
-* [WProofreader for HTML Editable Controls (Div)](https://webspellchecker.com/wsc-proofreader/#proofreader-div)
-* [WProofreader for CKEditor 4 Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-ckeditor4)
-* [WProofreader for CKEditor 5 Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-ckeditor5)
-* [WProofreader for TinyMCE Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-tinymce4)
-* [WProofreader for Froala Editor Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-froala-editor)
-* [WProofreader for Kendo UI Demo](https://webspellchecker.com/wsc-proofreader/#proofreader-kendo-ui)
-* [WProofreader for Textbox.io](https://webspellchecker.com/wsc-proofreader/#proofreader-textbox-io)
-* [WProofreader for Redactor](https://webspellchecker.com/wsc-proofreader/#proofreader-redactor)
-* [WProofreader for Quill](https://webspellchecker.com/wsc-proofreader/#proofreader-quill)
-* [WProofreader for ProseMirror](https://webspellchecker.com/wsc-proofreader/#proofreader-prosemirror)
-* [WProofreader for Trix](https://webspellchecker.com/wsc-proofreader/#proofreader-trix)
+* [WProofreader add-on demos](https://demos.webspellchecker.com/)
+
 
 Integrations
 ------------
-Here is a list of most common uses cases of the WProofreader integration in your web app:
+Here is a list of most common uses cases of the WProofreader add-on integration in your web app:
 
 * HTML editable controls such as ```<textarea>``` and elements with contenteditable attribute set to ‘true’ e.g. ```<div>```, ```<iframe>```;
 * Modern WYSIWYG editors such as [CKEditor 4](https://ckeditor.com/ckeditor-4/), [CKEditor 5](https://ckeditor.com/ckeditor-5/), [TinyMCE](https://www.tiny.cloud/), [Froala Editor](https://www.froala.com/wysiwyg-editor), [Kendo UI](https://www.telerik.com/kendo-ui), [Quill](https://quilljs.com/), [Redactor](https://imperavi.com/redactor/), [Summernote](https://summernote.org/), [RadEditor - Telerik ASP.NET Editor](https://demos.telerik.com/aspnet-ajax/editor/examples/overview/defaultcs.aspx), [ProseMirror](https://prosemirror.net/), [Scribe](https://github.com/guardian/scribe), [Trix](https://trix-editor.org/), [Slate](https://www.slatejs.org/examples/richtext), [Draft.js](https://draftjs.org/), etc.
@@ -42,9 +31,10 @@ Here is a list of most common uses cases of the WProofreader integration in your
 
 Supported languages
 ------------
-By default WProofreader supports 17 languages: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish and Ukrainian.
 
-There are also over 150 additional languages and specialized dictionaries such as Medical and Legal available, you can check the full list [here](https://webspellchecker.com/additional-dictionaries/). 
+By default WProofreader supports over 150 languages, some of them are: American English, British English, Brazilian Portuguese, Canadian English, Canadian French, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian Bokmal, Portuguese, Spanish, Swedish and Ukrainian.
+
+You can check the full list [here](https://webspellchecker.com/supported-languages/). 
 
 Get started
 ------------
@@ -86,12 +76,13 @@ Check the full version of [Get Started with Cloud WProofreader](https://docs.web
 <script>
   window.WEBSPELLCHECKER_CONFIG = {
     autoSearch: true,
-    servicePort: '2880',
-    servicePath: '/'
+    servicePort: '2880', // '443' if a web server is configured to act as reverse proxy
+    servicePath: '/' // 'wscservice/api' if a web server is configured to act as reverse proxy
     ...
    };
 </script>
 ```
+
 > Note: `WEBSPELLCHECKER_CONFIG` can be added to any location on a web page before or after the `wscbundle.js` script. However, if you add `wscbundle.js` asynchronously, this CONFIG must be added before the script.
 
 4. Add the `wscbundle.js` script.
