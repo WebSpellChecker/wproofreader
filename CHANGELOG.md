@@ -28,7 +28,7 @@ Find out more about all available customization options for [WProofreader in API
 ## 5.11.0.0 (3.1.xxxx) – 2021-03-17
 
 * Implemented global proofread dialog that aggregates all suggestions from the editable element on the page. Enabled by default: `globalProofreadDialog: true`.
-* Storing spell check ignore options and language selection globally for the same origin (`domain/subdomain+protocol//:domain+port`) in the browser local storage instead of per instance storage. Enabled by default: `localStorage [options, language]`.
+* Storing spell check ignore options and language selection globally for the same origin (`domain/subdomain+protocol//:domain+port`) in the browser local storage instead of per instance storage. Enabled by default: `disableOptionsStorage [options, language]`.
 * Implemented per page options and language synchronization mechanism. Enabled by default: `syncOptions = true`. It means that language selected in one instance, will be applied for all consequent and existing instances.
 * Updated localization of UI for the Ukrainian and Russian languages.
 
