@@ -1,5 +1,28 @@
 # WProofreader Changelog
 
+## 5.15.1.0 (3.4.4565) – 2021-08-20
+
+* Added a toggle option **“Correct spelling automatically”** for end users to turn on/off the autocorrect feature directly from the UI on the settings dialog. User selection will be remembered in the browser local storage. To find out more about autocorrect feature, refer to the [Autocorrect guide](https://docs.webspellchecker.net/display/WebSpellCheckerCloud/Autocorrect).
+* Extended the `settingsSections` option with additional value: `general`. This section right now contains the toggle Correct spelling automatically responsible for managing autocorrect functionality. By default it is shown. If admins prefer to remove it from UI, this value has to be removed from the array. Find out more in [WProofreader API options docs](https://webspellchecker.com/docs/api/wscbundle/Options.html).
+* Autocorrect replacements are now more user-friendly. The following spelling alarms will be ignored from the autocorrection: abbreviations, words in mixed case or containing digits, if suggestion consists of two words or a number of letters changed is more than one.
+
+### Bug Fixes
+
+* [WP-3994, WP-3997] Autocorrect doesn’t work properly with “auto” language
+
+## 5.15.0.0 (3.3.4562) – 2021-08-13
+
+**Autocorrect** as you type functionality (beta):
+* Enabled by default using new API option `autocorrect`;
+* Available for all supported languages except Japanese and Chinese;
+* Algorithm behind autocorrect is relying on a similarity score (Levenshtein distance) and as a source uses the aggregated statistics of user replaces bundled with the standard spell check operation. If conditions are not met, the autoreplace won’t happen.
+* End users have an option to revert/undo the correction by hovering on it and selecting the original word. The autocorrected word will be underlined with a gray dotted line. Undo action is remembered during the browser session until the page is reloaded.
+* In case of auto detected language, autocorrect uses the last detected language as a language for autocorrect check. More details about autocorrect feature are available here.
+* Updated UI localization for the Dutch language based on the feedback from one of our clients.
+
+
+.....
+
 ## 5.12.1.0 (3.2.4522) – 2021-05-12
 
 * Default language changed from American English (`en_US`) to Auto Detect (`auto`). This will be applied if no language is predefined in configuration using lang option.
