@@ -1,5 +1,15 @@
 # WProofreader Changelog
 
+## 5.15.2.0 (3.4.4570) – 2021-08-26
+
+* Improved autocorrect feature. Words that start from the capital letter will be ignored by autocorrect. It means that there won’t be false positive and annoying autocorrections for names or other proper names.
+
+### Bug Fixes
+
+* [WP-4000] Autocorrect doesn't work with Unicode languages (e.g. Ukrainian, Arabic, Hebrew, etc.)
+* [WP-3999] When user adds reverted words to the user dictionary they are still autocorrected
+
+
 ## 5.15.1.0 (3.4.4565) – 2021-08-20
 
 * Added a toggle option **“Correct spelling automatically”** for end users to turn on/off the autocorrect feature directly from the UI on the settings dialog. User selection will be remembered in the browser local storage. To find out more about autocorrect feature, refer to the [Autocorrect guide](https://docs.webspellchecker.net/display/WebSpellCheckerCloud/Autocorrect).
