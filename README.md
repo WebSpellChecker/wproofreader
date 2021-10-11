@@ -76,8 +76,9 @@ Check the full version of [Get Started with Cloud WProofreader](https://docs.web
 <script>
   window.WEBSPELLCHECKER_CONFIG = {
     autoSearch: true,
-    servicePort: '2880', // '443' if a web server is configured to act as reverse proxy
-    servicePath: '/' // 'wscservice/api' if a web server is configured to act as reverse proxy
+    servicePort: '443', 
+    serviceHost: 'your_host_name', 
+    servicePath: 'virtual_directory/api' // by default the virtual_directory is wscservice
     ...
    };
 </script>
@@ -88,7 +89,7 @@ Check the full version of [Get Started with Cloud WProofreader](https://docs.web
 4. Add the `wscbundle.js` script.
 
 ```
-<script type="text/javascript" src="http(s)://your_host_name/wscservice/wscbundle/wscbundle.js"></script>
+<script type="text/javascript" src="https://your_host_name/virtual_directory/wscbundle/wscbundle.js"></script>
 ```
 
 Check the full version of [Get Started with Server WProofreader](https://docs.webspellchecker.net/display/WebSpellCheckerServer55x/WProofreader) guides for more details.
