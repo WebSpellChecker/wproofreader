@@ -1,10 +1,9 @@
-WProofreader add-on for RTEs and HTML controls
+WProofreader SDK
 =====================
 
 ![WProofreader UI](https://webspellchecker.com/app/images/wproofreader-ui.png)
 
-
-**WebSpellChecker Proofreader (WProofreader)** is multilingual proofreading tool for web applications. It enables grammar and spell check combining spelling and grammar suggestions while you type or work with your text in a dedicated dialog. End users just need to hover on the marked words for instant correction suggestions or click the dialog icon in the bottom right corner to have the whole text proofread at once.
+**WebSpellChecker Proofreader (WProofreader) SDK** is multilingual proofreading tool for web applications. It provides a set of integrations with rich text editors (RTEs) and HTML controls. It enables grammar and spell check combining spelling and grammar suggestions while you type or work with your text in a dedicated dialog. End users just need to hover on the marked words for instant correction suggestions or click the dialog icon in the bottom right corner to have the whole text proofread at once.
 
 Here’s why to choose WProofreader for your web app:
 * Both instant spelling and grammar checking, and proofreading in a dialog are now available simultaneously.
