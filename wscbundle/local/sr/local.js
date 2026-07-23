@@ -1,5 +1,5 @@
 /**
- * scayt v3.43.6079
+ * scayt v3.44.6097
  * Copyright (c) 2000-2026 WebSpellChecker LLC All rights reserved.
  */
 
