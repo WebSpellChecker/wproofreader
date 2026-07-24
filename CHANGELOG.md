@@ -1,5 +1,18 @@
 # WProofreader Changelog
 
+## 6.15.0.0 (v3.44.6097) – 2026-07-24
+
+### Enhancements
+
+* Added the **applyAllSuggestions** method (WEBSPELLCHECKER.getInstances()[0].applyAllSuggestions()), which applies all suggested corrections at once by accepting the first suggestion for each issue. This release ships the method only, with no built-in UI button; a UI button is planned for a future release. After applying, the editor content, suggestion list, counters, and proofreading score are updated.
+* Added the MISSING_PERIOD rule to the option disabledRulesPerEnvironment, so now, by default, this rule is disabled in headings and list items, preventing unnecessary missing-period suggestions in these contexts.
+* Improved the German sentence tokenizer to correctly recognize abbreviations containing spaces and capital letters (for example, z. B.), reducing false capitalization suggestions after these abbreviations.
+Updated domain name handling to use the url field returned in the server response, improving domain processing consistency.
+
+### Security
+
+* **Rangy library vulnerability fix**: Updated the forked Rangy library used in SCAYT3 to address [CVE-2023-26102](https://www.cve.org/CVERecord?id=CVE-2023-26102). The fix was implemented by backporting the upstream security patch, ensuring the vulnerability is resolved while maintaining compatibility with the current fork.
+
 ## 5.15.2.0 (3.4.4570) – 2021-08-26
 
 * Improved autocorrect feature. Words that start from the capital letter will be ignored by autocorrect. It means that there won’t be false positive and annoying autocorrections for names or other proper names.
