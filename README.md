@@ -2,6 +2,7 @@ WProofreader SDK
 =====================
 
 ![WProofreader UI](https://webspellchecker.com/app/images/wproofreader-ui.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWebSpellChecker%2Fwproofreader.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FWebSpellChecker%2Fwproofreader?ref=badge_shield)
 
 **WebSpellChecker Proofreader (WProofreader) SDK** is multilingual proofreading tool for web applications. It provides a set of integrations with rich text editors (RTEs) and HTML controls. It enables grammar and spell check combining spelling and grammar suggestions while you type or work with your text in a dedicated dialog. End users just need to hover on the marked words for instant correction suggestions or click the dialog icon in the bottom right corner to have the whole text proofread at once.
 
@@ -133,3 +134,7 @@ License
 ------------
 
 In order to use WProofreader you have to purchase one of the following licenses according to your needs. You can find more about that on our website on the [pricing plan page](https://webspellchecker.com/pricing/).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWebSpellChecker%2Fwproofreader.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FWebSpellChecker%2Fwproofreader?ref=badge_large)
