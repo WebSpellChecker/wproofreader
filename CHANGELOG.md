@@ -1,5 +1,24 @@
 # WProofreader Changelog
 
+## v6.18.1.0 (v3.46.6137) - 2026-09-23
+
+### Enhancements
+
+* Improved the feature settings experience. Controls now reflect **actual feature availability** for the selected language and configuration.
+* Features that are unsupported or disabled on the backend can now appear as unavailable instead of showing as enabled.
+* Improved **spelling suggestion descriptions**. Classified spelling issues now show a specific message in the UI.
+* Allow a user to apply all corrections for found issues at once.
+
+### Bug Fixes
+
+* Disable rule functionality doesn't trigger the badge to recalculate the number of issues.
+
+## v6.17.1.0 (v3.45.6101) - 2026-09-09
+
+### Bug Fixes
+
+* Fixed native browser spellcheck not being restored on page load when 'restoreNativeSpellCheck: true' is used together with 'autoStartup: false'.
+
 ## 6.15.0.0 (v3.44.6097) – 2026-07-24
 
 ### Enhancements
