@@ -1,6 +1,6 @@
 {
 	"BRANDING_BASE_SUPPORT_URL": "https://webspellchecker.com/contact-us/",
-	"BRANDING_SUPPORT_MAIL": "support@webspellchecker.net",
+	"BRANDING_SUPPORT_MAIL": "support@webspellchecker.com",
 	"BRANDING_MIGRATION_MANUAL_URL": "https://docs.webspellchecker.net/display/WebSpellCheckerServer53x/Migrating+from+WebSpellChecker+Cloud+to+Server+Application",
 	"BRANDING_USER_DICT_MANUAL_URL": "https://docs.webspellchecker.net/display/WebSpellCheckerServer53x/Configuring+Server+User+Dictionary",
 	"BRANDING_CUSTOM_DICT_MANUAL_URL": "https://docs.webspellchecker.net/display/WebSpellCheckerServer53x/Configuring+Server+Custom+Dictionary",
